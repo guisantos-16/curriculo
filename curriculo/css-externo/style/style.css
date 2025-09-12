@@ -1,0 +1,115 @@
+html {
+    background-color: gray;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    min-height: 100%;
+}
+
+body {
+    background-color: white;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    max-width: 100%;
+    min-height: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    width: 100%;
+}
+
+#title {
+    color: gray;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+#subtitle {
+    margin-top: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.info {
+    width: 40%;
+    max-width: 500px;
+    padding: 1em;
+}
+
+.topicos {
+    font-weight: 600;
+    color: gray;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+p {
+    font-size: 1.1em;
+    width: 100%;
+    margin-bottom: 1.5em;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+#formacao {
+    list-style-type: none;
+}
+
+li {
+    font-size: 1em;
+}
+
+strong {
+    text-transform: uppercase;
+}
+
+ul,
+.info,
+p {
+    max-width: 100%;
+}
+
+.perfil {
+    max-height: 100%;
+    /* Altura fixa */
+    overflow-y: auto;
+    /* Borda para visibilidade */
+    padding: 10px;
+}
+
+.topicosPerfil {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: gray;
+}
+
+#contatos {
+    list-style-type: none;
+}
